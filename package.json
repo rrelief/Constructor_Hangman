@@ -1,0 +1,25 @@
+{
+  "name": "constructor_hangman",
+  "version": "1.0.0",
+  "description": "advanced_javascript_hangman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrelief/Constructor_Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrelief/Constructor_Hangman/issues"
+  },
+  "homepage": "https://github.com/rrelief/Constructor_Hangman#readme",
+  "dependencies": {
+    "boxen": "^1.3.0",
+    "inquirer": "^5.2.0",
+    "is-letter": "^1.1.1",
+    "prompt": "^1.0.0"
+  }
+}
