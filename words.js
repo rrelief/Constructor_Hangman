@@ -22,8 +22,9 @@ var Word = function (myWord) {
      
     this.generateLetters = function() {
         for (i=0; i < this.letters.length; i++){
+            console.log("here")
             this.letters[i] = new Letter (this.letters[i]);
-            this.letter[i].showCharacter();
+            this.letters[i].showCharacter();
             ////world wide web suggests creating a large array that contains all letters for debugging
             // this.letters[i].letterCorrect = true;
             // console.log(this.letters[i]);
